@@ -45,4 +45,3 @@ DataToVectors(api)
 print(len(data['hourly']["apparent_temperature"]))
 print(int(data['hourly']["time"][0][11:13]) in range(-1,1))
 
-print("test")
